@@ -1,0 +1,75 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    margin-right: 1rem;
+}
+header nav ul li {
+
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color:black;
+    padding:10px;
+}
+header nav ul li:hover {
+    transform: scale(1.1);
+    background-color: rgb(231, 227, 227);
+}
+div img
+{
+    height:500px;
+    width: 100%;
+    object-fit:fill;
+}
+div nav ul
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 800%;
+}
+div nav ul li img{
+    height: 300px;
+}
+div nav
+{
+    display: flex;
+    background-color: white;
+}
+div nav ul li {
+    position: relative; 
+  }
+  
+div nav ul li h5 {
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+   font-size: 23px;
+  }
+div nav ul li h4
+{
+    position: absolute; 
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   font-size: 25px;
+}
+.container
+{
+    align-items:flex-start;
+    margin-left :40px;
+    margin-right:40px;
+    background-color: yellow;
+    font-size:14px;
+}
+.container1
+{
+    background-color: yellow;
+}
