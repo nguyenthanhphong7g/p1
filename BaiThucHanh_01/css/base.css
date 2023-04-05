@@ -1,3 +1,4 @@
+
 header
 {
     display: flex;
@@ -34,6 +35,7 @@ div nav ul
 }
 div nav ul li img{
     height: 300px;
+    margin-top: -15px;
 }
 div nav
 {
@@ -64,12 +66,15 @@ div nav ul li h4
 .container
 {
     align-items:flex-start;
-    margin-left :40px;
-    margin-right:40px;
     background-color: yellow;
     font-size:14px;
+    margin-left :40px;
+    margin-right:40px;
 }
 .container1
 {
+    display: flex;
+    justify-content: space-between;
     background-color: yellow;
+    margin-top: 2rem;
 }
